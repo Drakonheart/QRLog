@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* mui overwirte ui settings */
+
+.css-10d30g3-MuiPaper-root-MuiDialog-paper{
+  max-width: none!important;
+  background-color: rgba(0, 255, 255, 0)!important;
+  box-shadow:none !important;
+}
+
+ /* Vertical Scrollbar */
+ ::-webkit-scrollbar {
+  width: 0.5em; /* Width of vertical scrollbar */
+  height: 0.5em; /* Height of horizontal scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: hsla(120, 50%, 75%, 0);
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+background: hsl(0, 0%, 0%);
+border-radius: 20px;
+border: 1px solid hsl(0, 0%, 85%); /* Transparent border to act as margin */
+}

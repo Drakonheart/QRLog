@@ -1,0 +1,34 @@
+.print-content {
+    padding: 10px;
+    width: 233px;
+    height: 108px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+  }
+  
+  .print-content .PrintableName,
+  .print-content .PrintableLastName{
+    font-size: 25px; /* Adjust font size as needed */
+    white-space: nowrap; /* Prevents wrapping to a new line */
+    overflow: hidden; /* Hides overflow text */
+    text-overflow: ellipsis; /* Adds the ellipsis (...) */
+  }
+  
+  .print-content .PrintableName {
+    font-size: 30px;
+
+
+  }
+
+  .print-content .PrintableSchoolName {
+    margin-top: 2px;
+    font-size: 15px;
+    white-space: nowrap; /* Prevents wrapping to a new line */
+    overflow: hidden; /* Hides overflow text */
+    text-overflow: ellipsis; /* Adds the ellipsis (...) */
+
+
+  }
+  
